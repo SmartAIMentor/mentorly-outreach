@@ -1,0 +1,17 @@
+Subject: Free creator stats for @{{handle}} — Mentorly beta
+
+Hi {{first_name}},
+
+{{hook}}
+
+I'm reaching out from Mentorly — we're building an AI mentor that helps creators with content, pricing, and brand deals.
+
+We're looking for early creators to try a free account analysis. No cost, no commitment.
+
+Grab your spot (2 min): {{form_url}}
+
+Reply with your profile link if you want a sample report first.
+
+Best,
+Mentorly Team
+https://mentoraixs.ai

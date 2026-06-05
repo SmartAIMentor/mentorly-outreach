@@ -1,0 +1,14 @@
+Title: We analyzed public creator stats — free breakdown for beta testers [Creator Economy]
+
+Body:
+We're building Mentorly (AI mentor for creators) and ran public-profile stats on a small batch of accounts in [niche].
+
+Patterns we keep seeing:
+- Engagement varies a lot vs follower count (not always what you'd expect)
+- Pricing vs niche benchmarks is often the biggest gap
+
+Looking for 10 creators to try a **free account breakdown** (engagement + 3 quick wins). No product pitch — we're still in beta.
+
+Form (2 min): {{form_url}}
+
+If you're interested, drop your IG/TikTok handle in comments and I'll DM you.

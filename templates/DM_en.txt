@@ -1,0 +1,7 @@
+Hey {{first_name}} — {{hook}}
+
+We're building Mentorly, an AI mentor for creators (early access). We're offering a free account breakdown (~$100 value) to beta testers.
+
+Want the link? Takes 2 min: {{form_url}}
+
+No pitch deck — just real stats + 3 actionable tips.

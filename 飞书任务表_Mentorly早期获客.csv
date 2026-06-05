@@ -1,0 +1,23 @@
+阶段,优先级,任务名称,任务说明,负责人,开始周,截止周,状态,KPI/验收标准,依赖/备注
+Phase1,P0,验证 DM 话术（手动）,每天手动 DM 20 位达人，记录什么话术有回复、什么钩子有效,Bonnie,Week1,Week2,未开始,≥20人/天触达；记录回复率基线,先于自动化
+Phase1,P0,验证 Reddit/Discord 社群,在 2-3 个目标社群发数据洞察帖（非硬广），记录哪些社群有互动,清酒,Week1,Week2,未开始,每社群≥1帖；记录互动/私信数,钩子=数据帖
+Phase1,P0,列 Agency 目标清单,LinkedIn 找 50 个中小型 creator agency，整理联系人/规模/地区,清酒,Week1,Week2,未开始,清单≥50条,配合 pitch deck
+Phase1,P0,准备 Agency Pitch,制作 pitch deck + Loom demo（清华 AI + 免费达人诊断 pilot）,Bonnie,Week1,Week2,未开始,deck+demo 可发送,与清酒清单联动
+Phase1,P0,X 社媒日更启动,日更 2-3 条：TikHub/数据洞察 + Building in Public,Bonnie,Week1,持续,未开始,≥2条/天,半自动：Buffer
+Phase1,P0,Beta 招募话术定稿,核心：early access + 免费账号诊断/报价；中英文版本,Bonnie,Week1,Week1,未开始,话术文档 v1,对齐 PPT 交换价值
+Phase2,P0,搭建达人数据采集管道,按 niche/粉丝/互动率筛选；落库字段：平台、handle、粉丝、互动率、邮箱（若有）、niche,晓宇,Week3,Week4,未开始,可批量导出≥500条/批,首选 TikHub API；见工具选型 doc
+Phase2,P0,AI 画像 + 个性化消息生成,RecSys/Persona 生成 DM/邮件：夸内容+数据点+免费诊断 CTA,晓宇,Week3,Week4,未开始,消息模板可 A/B,依赖采集管道
+Phase2,P0,冷邮件发送管道,多邮箱轮换、限速、退订、打开/回复追踪；非 Mailchimp 场景,晓宇,Week3,Week4,未开始,测试发送≥50封/天,推荐 Instantly 或自建+Resend 仅限已 opt-in
+Phase2,P0,DM 半自动流程,Bonnie 审核 AI 生成 DM 后一键/批量发送,晓宇+Bonnie,Week3,Week4,未开始,审核后发送≥30人/天,IG 需注意平台限制
+Phase2,P0,社媒内容半自动,AI 生成素材 → 人工审核 → Buffer 定时发布,Bonnie,Week3,Week4,未开始,IG 5条/周；X 日更,Canva 模板
+Phase2,P1,免费报价计算器 MVP,Platform+Followers+Niche → 报价范围+同行比较；留邮箱,晓宇,Week3,Week6,未开始,可跑通端到端,SEO 钩子 #1
+Phase2,P1,免费账号诊断 MVP,输入社媒链接 → 评分+3条建议；留邮箱进完整版,晓宇,Week3,Week6,未开始,可跑通端到端,SEO 钩子 #2
+Phase2,P0,Agency 建联启动,对清单 Top 20 发 pitch；约 3 家 pilot 谈免费诊断 top10 达人,清酒+Bonnie,Week3,Week6,未开始,≥20家触达；≥3家回复,人工为主
+Phase3,P0,全自动触达 50人/天,筛选→画像→消息→发送→CRM 二次跟进,晓宇,Month2,Month3,未开始,50人/天；15%回复；5%注册,成本目标 $0-80/月
+Phase3,P1,SEO 文章批量生成,关键词矩阵：rate calculator / creator earnings 等,晓宇,Month2,Month3,未开始,≥10篇/月,AI 辅助
+Phase3,P1,Substack 周更,Creator Economy Weekly；沉淀 email list,Bonnie,Month2,持续,未开始,每周 1 期,最重要 list
+Phase3,P0,Product Hunt Launch,M3 决策点；需 M2 有 200 MAC 基础,全员,Month3,Month3,未开始,M3 MAC≥500,依赖产品与口碑
+里程碑,-,M1 北极星,Monthly Active Creators,全员,Month1,Month1,未开始,MAC≥20,Beta 种子
+里程碑,-,M2 北极星,MAC + 管道跑通,全员,Month2,Month2,未开始,MAC≥200,工具上线
+里程碑,-,M3 北极星,PH + 决策,全员,Month3,Month3,未开始,MAC≥500,-
+里程碑,-,M6 北极星,PMF + 融资故事,全员,Month6,Month6,未开始,MAC≥1500,月成本<$200
