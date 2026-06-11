@@ -20,6 +20,9 @@ case "${1:-}" in
   import)
     python import_xlsx.py
     ;;
+  export-ops)
+    python export_ops_xlsx.py
+    ;;
   email|tiktok-email)
     shift
     python import_xlsx.py 2>/dev/null || true

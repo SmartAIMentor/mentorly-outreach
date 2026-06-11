@@ -13,6 +13,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from template_render import render_dm_v2, render_email_v2
+
 ROOT = Path(__file__).resolve().parent
 DEFAULT_INPUT = ROOT / "creators.csv"
 DEFAULT_OUT = ROOT / "output"
@@ -190,36 +192,12 @@ def build_hook(
 
 def render_dm(name: str, hook: str, form_url: str, platform: str = "instagram") -> str:
     who = name or "there"
-    channel = "TikTok" if platform == "tiktok" else "IG"
-    return f"""Hey {who} — {hook}
-
-We're building Mentorly, an AI mentor for creators (early access). We're offering a free account breakdown (~$100 value) to beta testers.
-
-Want the link? Takes 2 min: {form_url}
-
-(No pitch — just stats + 3 tips. Happy to share via {channel} DM or email.)"""
+    return render_dm_v2(who)
 
 
 def render_email(name: str, hook: str, form_url: str) -> tuple[str, str]:
     who = name or "there"
-    subject = f"Free creator stats for @{who} — Mentorly beta"
-    body = f"""Hi {who},
-
-{hook}
-
-I'm reaching out from Mentorly — we're building an AI mentor that helps creators with content, pricing, and brand deals.
-
-We're looking for early creators to try a free account analysis (engagement, niche benchmarks, quick wins). No cost, no commitment.
-
-Grab your spot here (2 min):
-{form_url}
-
-Happy to send a sample report first if you reply with your main profile link.
-
-Best,
-Mentorly Team
-https://mentoraixs.ai"""
-    return subject, body
+    return render_email_v2(who)
 
 
 def reel_edges_to_items(reels_resp: dict[str, Any]) -> list[dict[str, Any]]:

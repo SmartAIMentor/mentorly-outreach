@@ -10,6 +10,8 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+from template_render import render_email_v2
+
 ROOT = Path(__file__).resolve().parent
 DEFAULT_INPUT = ROOT / "creators_tiktok.csv"
 DEFAULT_OUT = ROOT / "output"
@@ -74,26 +76,7 @@ def build_hook(followers: int, eng: float | None, niche: str) -> str:
 
 
 def render_email(first: str, hook: str, form_url: str, tiktok_url: str) -> tuple[str, str]:
-    subject = f"Free TikTok creator breakdown — Mentorly beta"
-    body = f"""Hi {first},
-
-{hook}
-
-I'm from Mentorly — we're building an AI mentor for creators (content, pricing, brand deals).
-
-We're offering early testers a free account snapshot (~$100 value): engagement, niche benchmarks, 3 quick wins.
-
-Your profile: {tiktok_url}
-
-Grab a spot (2 min, no card):
-{form_url}
-
-Reply if you'd like a sample report first.
-
-Best,
-Mentorly Team
-https://mentoraixs.ai"""
-    return subject, body
+    return render_email_v2(first)
 
 
 def parse_row(r: dict[str, str], form_url: str) -> Row | None:

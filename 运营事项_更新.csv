@@ -1,19 +1,24 @@
-﻿序号,任务名称,渠道类型,优先级,自动化程度,负责人,频率,钩子/卖点,执行步骤,KPI,工具,状态,备注
-1,IG/TikTok DM 精准触达,直接联系,P0,可全自动化,Bonnie+晓宇,每日,自动找商机发内容产品试用/免费账号诊断报告,Fastmoss拉数据→脚本生成DM→复制到IG私信手动发→对方填Tally。话术：①夸具体内容②给一个他不知道的数据点③免费诊断价值④一句话CTA不推销,MVP手动20人/天；目标500人/天·15%回复·5%注册,Fastmoss/Echotik,进行中,当前CTA=Tally免费诊断报名；产品页上线后把.env的MENTORLY_BETA_FORM_URL换成产品页
-2,Cold Email 冷邮件触达,直接联系,P0,可全自动化,Bonnie+晓宇,每日,自动找商机发内容产品试用/免费账号诊断报告,维护邮箱列表→Instantly批量发(限速+A/B测试)→已回复人工接，未读自动二次跟进,500人/天·15%回复,Mailchimp;Instantly,未开始,获取邮箱方式可以参考飞书链接：获取目标达人邮箱方式 密码：27j25&76
-4,Twitter/X 日更内容,社媒内容,P0,半自动化,清酒,每日,数据洞察 + Building in Public,用TikHub真数据做creator洞察帖 + 产品日记(building in public)→AI生成→Buffer定时发。例:We analyzed 10k TikTok creators...,日更2-3条,TikHub/RecSys/Buffer,未开始,内容来自Mentorly数据能力=别人发不了的独家洞察
-5,Instagram 内容运营,社媒内容,P0,半自动化,清酒,每周,产品功能展示(六维雷达截图),Creator tips轮播图 + Reels；产品功能展示→Canva模板+AI文案批量出图。用达人语言不是产品话术,5条/周,Canva/AI文案,未开始,
-6,Linkedin 图文,社媒内容,P0,半自动化,清酒,每周,,,,,,
-7,TikTok 短视频或图文,社媒内容,P1,半自动化,清酒,每周,产品demo + 数据揭秘,"60秒tips(如""你知道你值多少钱吗"")+产品功能demo→种子达人出镜最有说服力→素材模板批量剪辑定时发",3条/周,剪辑模板,未开始,
-8,Agency/团长合作批量导入,达人宣发,P0,人工为主,清酒,每周,帮Agency免费诊断旗下达人,LinkedIn找50个中小agency→免费pilot pitch→帮top20达人免费出诊断品→3个月免费试用→收集反馈→满意则全库接入,列50个目标agency；1个agency=20-200达人,LinkedIn/Persona Graph/Loom,进行中,痛点:agency不知道旗下达人真实市场价值。下一步:Bonnie系统列50个+pitch deck+Loom demo
-10,KOL 推广,达人宣发,P1,人工为主,清酒,每两周,免费使用换 testimonial,5-10个5k-50k粉达人免费使用→换testimonial+社媒mention,5-10个KOL,—,未开始,
-12,主页优化,SEO,P1,可全自动化,清酒,搭建后每日监控,Persona Graph(35节点×48边) + 六维雷达,用户输入TikTok/IG/YouTube链接→TikHub拉公开数据→Persona Graph建画像→AI生成评分+3条改进建议(全自动零人工)。免费版:总评分+3建议+niche排名；注册版:15项诊断+行动计划+变现评估,日100次·50%留邮箱·20%注册,Persona Graph/TikHub/Vercel,未开始,
-13,SEO 关键词文章矩阵,SEO,P1,可全自动化,清酒,每周,产品核心能力的免费版,AI批量生成文章覆盖关键词:how to price brand deals(2.4k/月)/tiktok creator earnings(5.1k/月)/instagram rate calculator(1.8k/月)/creator economy tools 2026(3.2k/月),关键词矩阵覆盖+自然搜索流量,AI写作/SEO,未开始,
-14,小工具+反馈表单(title生成器等),SEO,P1,半自动化,清酒,每周,现有小功能(如title生成器),把现有小功能做成免费工具 + 反馈搜集表单→引导注册,收集用户反馈,现有功能/Tally,未开始,可用现在已有的几个小功能先跑
-15,Reddit/Discord 获取,渠道获取,P1,半自动化(现手动),清酒,每日,免费诊断 + 数据洞察,手动发Reddit/Discord→验证哪些社群有反应,验证有反应的社群,—,进行中,
-16,Product Hunt Launch,渠道获取,P2,人工为主,全员,一次性,完整产品,M3 PH Launch(决策点)：准备素材、hunter、首日冲榜,M3发布冲榜,Product Hunt,未开始,北极星里程碑:M3 PH Launch=决策点
-18,Waitlist邀请制 + Referral推荐奖励,邀请码裂变,P1,可全自动化,全员,搭建后持续,Beta早鸟权益(永久折扣/免费期),Waitlist邀请制+Referral推荐奖励→1个满意达人推荐5-10个同行(word-of-mouth裂变),裂变系数 / 推荐转化,—,未开始,可能配合分销方式
-19,Google Ads / 社媒付费广告,SEM,P2,半自动化,清酒,每周,免费工具落地页,Google Ads + 社媒付费广告投放，引流到免费工具页,有预算后启动,Google Ads,未开始,P2=有预算后再做
-20,自动化触达管道搭建,直接联系,P0,可全自动化,晓宇,一次性(搭建),钩子来自产品能力,"数据采集(Fastmoss/echotik)→AI画像(35维建模找痛点机会)→消息生成(ClawCore个性化DM/邮件)→多渠道发送(IG API+Instantly,限速+A/B)→跟进转化(CRM+人工)。从零到50人/天全自动触达",50人/天·15%回复·5%注册;成本$0-80/月,TikHub/ClawCore/Instantly/CRM,进行中,Bonnie定话术·晓宇搭管道
-21,DM话术库制定与迭代,直接联系,P0,半自动化,Bonnie,每周,RecSys分析达人数据→变成DM里的数据点,定话术四步:①夸具体内容(不泛泛)②给一个他不知道的数据点③提供免费价值(AI诊断)④一句话CTA不推销。持续A/B迭代,话术转化率验证,RecSys/ClawCore,进行中,"收集""什么话能打动达人"""
-22,北极星指标周度复盘,复盘/统筹,P0,人工为主,全员,每周,—,复盘MAC(Monthly Active Creators)增长:M1=20 / M2=200 / M3=500 / M6=1500；月成本控制<$200；先找50个Beta共建者验证产品再放量,按里程碑达成MAC;月成本<$200,—,进行中,"北极星:3个月1500 MAC。能自动化的绝不手动,3人撬动规模化增长"
+﻿阶段,ID,任务名称,渠道类型,优先级,自动化程度,负责人,频率,钩子/卖点,执行步骤,KPI,工具,状态,备注
+Phase1,P0-1,Leroy联调测试清单,产品就绪,P0,人工,晓宇,一次性,登录+积分+支付+Chat可用,按docs/mvp/leroy-p0-test-checklist.md逐项测试并记录bug,P0 bug清零,本地Leroy分支,进行中,阻塞CTA切换为产品链接
+Phase1,P0-2,Seed用户onboarding SOP,产品就绪,P0,人工,Bonnie,一次性,回复yes后拉群/开试用/兑现免费1个月,见docs/seed-onboarding-sop.md,1页SOP定稿,飞书,进行中,
+Phase1,P0-3,CTA切换规则,产品就绪,P0,人工,全员,一次性,reply yes→产品注册→付费,测通后在outreach README更新规则,规则文档1份,飞书,待开始,当前邮件/DM用v2 reply yes
+Phase1,O-1,Cold Email批次1,直接联系,P0,半自动,Bonnie,每日,v2: AI agent seed user reply yes,Instantly导入250人;Subject={{email_subject}} Body={{email_body}};Daily Limit 30-50,250封发出;回复率≥6%,Instantly+Gmail,进行中,与IG DM名单不重合
+Phase1,O-2,Cold Email批次2,直接联系,P0,半自动,Bonnie,批次1后,同上,剩余50人;需Instantly会员或下月,50封,Instantly,待开始,
+Phase1,O-2b,IG DM补触达,直接联系,P0,手动,Bonnie,20/天,DM_en_v2 seed user reply yes,./run.sh生成文案;仅触达未在邮件名单或邮件未回者,20人/天,Instagram+脚本,进行中,
+Phase1,O-3,话术A/B,直接联系,P0,半自动,Bonnie,每周,v1 Tally诊断 vs v2 reply yes,飞书记录各版本回复率,确定优胜话术,飞书,进行中,
+Phase1,O-4,触达CRM,直接联系,P0,半自动,全员,每日,状态追踪,导入docs/crm-触达追踪_飞书导入.csv;每日更新,字段完整率100%,飞书多维表格,进行中,
+Phase2,C-1,产品Use Case英文,内容与SEO,P0,半自动,清酒,2/周,pre-publish check/brand deal/cross-post,见docs/content/use-cases-en.md,≥5条Use Case,Notion/飞书,待开始,对齐JD国际场景
+Phase2,C-2,X日更Building in Public,内容与SEO,P0,半自动,清酒,2-3/天,Leroy产品截图+进展,Buffer定时发,日更2-3条,Buffer,未开始,
+Phase2,C-3,SEO文章矩阵,内容与SEO,P1,半自动,清酒,2/ week,AI creator assistant/content compliance/brand deal tools,见docs/content/seo-keywords.md,10篇/月,AI写作,未开始,原rate calculator关键词后置
+Phase2,C-4,Demo说明与录屏,内容与SEO,P1,半自动,清酒+晓宇,一次性,30s产品Demo,见docs/content/demo-outline.md,1页+1视频,录屏工具,待开始,
+Phase2,C-5,IG/TikTok内容,内容与SEO,P1,半自动,清酒,5+3/周,展示Chat/Create,Canva+AI文案,8条/周,Canva,未开始,不再主打六维雷达除非已上线
+Phase2,F-1,Discord/Reddit反馈渠道,用户反馈,P1,半自动,清酒,每日,用户问题收集,见docs/content/discord-reddit-setup.md,1个常驻地,Discord/Reddit,待开始,对齐JD Oncall
+Phase2,F-2,FAQ文档,用户反馈,P1,半自动,清酒,每周,注册/积分/Chat用法,见docs/content/faq-en.md,≥20条FAQ,飞书/官网,待开始,
+Phase2,F-3,Chat回答质量评测,用户反馈,P1,半自动,晓宇,每2周,检索/回答/体验,10条标准问题+评分表,评测报告1份,产品+表格,待开始,对齐JD评测
+Phase2,F-4,Reddit/Discord获客帖,渠道获取,P1,半自动,清酒,2/周,seed user招募,用REDDIT_en_v2模板,2帖/周,Reddit,进行中,
+Phase3,S-1,Agency批量导入,达人宣发,P2,人工,清酒,每周,AI agent pilot非免费诊断,LinkedIn 50 agency+pitch,3家pilot回复,LinkedIn/Loom,进行中,
+Phase3,S-2,Product Hunt Launch,渠道获取,P2,人工,全员,一次性,M3决策点,准备素材+hunter,MAC≥500,PH,未开始,
+Phase3,S-3,Referral/Waitlist,邀请裂变,P2,半自动,全员,持续,早鸟权益,产品有稳定激活后启动,裂变系数,产品内,未开始,
+Phase3,S-4,SEM付费广告,SEM,P2,半自动,清酒,有预算后,免费工具落地页,Google Ads,有预算后启动,Google Ads,未开始,
+Phase3,S-5,Persona Graph免费诊断页,SEO,P2,半自动,晓宇,产品ready后,免费诊断SEO钩子,TikHub+产品页,日100次访问,产品API,未开始,原P1降级
+复盘,ALL,北极星周度复盘,复盘,P0,人工,全员,每周,MAC增长与成本,M1=20/M2=200/M3=500;月成本<$200,按里程碑达成,飞书,进行中,
